@@ -1,0 +1,19 @@
+In terminal use % node command shell to run a JS script
+  $ node filename.js
+
+
+template literals is a great tool instead if concatenation
+template literals uses  ``  (backtick sign) 
+
+statements vs expression
+
+  - expression is a a piece of code that produces a value
+    5 + 3 = 9 is an expression
+    - the value  9 is an expression
+  
+  - statements are actions
+    if (20 > 10) {
+      console.log("true")
+    }
+    - A statement does not produce a value, it only performs an action.
+  
