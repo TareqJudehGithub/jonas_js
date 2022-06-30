@@ -1,0 +1,9 @@
+Operators
+ - Combines multiple values.
+
+
+ Math (Arithmetic) operators
+  - Used for all math operations
+   
+    + - * / 
+    **

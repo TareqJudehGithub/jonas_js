@@ -1,0 +1,27 @@
+Data Types in JS
+
+ - In JS, a value can be either an object, or a primitive.
+ - JS has dynamic typing. We don't have to manually define a data type
+   for declaring variables.
+ 
+Number
+  - Used for BOTH decimals and integers (whole numbers).
+
+String 
+  - A sequence of characters quoted between double/single quotations.
+
+Boolean
+ - Logical type that can only be true or false.
+ - Used for decision making.
+
+Undefined
+ - A variable that has yet no value (declared but not initialed with a value);
+
+Null
+ - Empty value.
+
+Symbol
+ - Not used much. Value that is unique but cannot be changed
+
+BigInt 
+ - Larger integers than the Number type can hold.

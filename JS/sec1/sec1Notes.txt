@@ -1,13 +1,12 @@
 JavaScript (JS)
-     JS is a high-level object-oriented multi-paradigm programming language.
-     Programming language: A tool to write code, instructing the computer to do a set of orders.
-     OOP: Objects for storing most kinds of data.
-     multi-paradigm: We can use different styles of programming.
-     high-level: We don't have to worry about complex stuff like memory management.
-
+- JS is a high-level object-oriented multi-paradigm programming language.
+- Programming language: A tool to write code, instructing the computer to do a set of 
+  orders.
+- OOP: Objects for storing most kinds of data.
+- multi-paradigm: We can use different styles of programming.
+- JS gives Dynamic effects and web applications in the browser.
 
 HTML      building blocks of websites (contents).      Noun
-CSS       styling the websites.    Adjective
-JS        Interactivity.   Verb. Dynamic effects and web applications in the browser.
+CSS       styling the websites.    (presentation)      Adjective
+JS        Interactivity.                               Verb. 
 
-const and let are declaration statements.

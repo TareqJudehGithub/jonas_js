@@ -1,0 +1,21 @@
+Variables naming convention in JS
+  - A variable name should follow the camel case naming convention
+    let camelCase = "camel";
+  - A variable name should be descriptive and meaningful.
+  - Don't start your variable name with an uppercase letter, save constants.
+
+Variables naming rules in JS
+ - A variable cannot start with a number
+ - A variable cannot contain special character like %@*
+ - A variable cannot be reserved JS keywords.
+ - name is a reserved JS keyword.
+
+
+const keyword 
+ - Creates an immutable value (cannot be reassigned)
+ - Make it a habit to declare variables with fixed values with const keyword.
+
+let keyword
+ - Creates a mutable value (can be reassigned later)
+ - Good for values that are constantly changing (e.g. total, sum)
+ 

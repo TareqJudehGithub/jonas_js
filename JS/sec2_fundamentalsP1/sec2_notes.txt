@@ -1,4 +1,4 @@
-In terminal use % node command shell to run a JS script
+In terminal use $ node command shell to run a JS script
   $ node filename.js
 
 

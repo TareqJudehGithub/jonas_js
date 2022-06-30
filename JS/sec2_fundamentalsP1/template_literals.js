@@ -18,7 +18,9 @@ console.log(jonas);
 console.log("\n"); // provides 2 line spacing between lines
 
 // ES6 format template literals using  ``  (backtick sign)
-const jonasNew = `I\'m ${firstName}, a ${year - birthYear} years old. I\"m a ${job}.`;
+const jonasNew = `I\'m ${firstName}, a ${
+	year - birthYear
+} years old. I\"m a ${job}.`;
 console.log(jonasNew);
 console.log("Hello, world!");
 console.log("");
