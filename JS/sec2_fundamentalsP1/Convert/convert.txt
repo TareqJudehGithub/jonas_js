@@ -1,0 +1,22 @@
+Data Type conversion in JS
+
+ - With operators, JS converts all strings to numbers except the addition + operator.
+ - In addition + operations, numbers will be converted to strings.
+    const sum = "10" + 1 
+    >>> $ "101"
+
+ - In subtraction, strings will be converted to numbers
+    const subtract = "10" - 5
+    >>> % 5
+ 
+  Type conversion
+   - Manually convert from one data type to another.
+   - JS can convert to only String, Number, or Boolean data type.
+   - Number function converts a string to a number data type.
+
+
+  Type coercion
+   - JS automatically converts to another data type.
+   - JS can convert to only String, Number, or Boolean data type.
+
+ 

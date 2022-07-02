@@ -21,12 +21,10 @@ GOOD LUCK 😀
 const markWeight = 78;
 const markHeight = 1.69;
 let markBMI = markWeight / markHeight ** 2;
-console.log(markBMI);
 
 const johnWeight = 92;
 const johnHeight = 1.95;
 let johnBMI = johnWeight / johnHeight ** 2;
-console.log(johnBMI);
 
 const markHigherBMI = markBMI > johnBMI;
 

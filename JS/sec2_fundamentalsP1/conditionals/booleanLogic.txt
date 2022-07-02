@@ -1,0 +1,10 @@
+Boolean Logic
+
+ - &&  and
+  - Returns true if both operands Return true.
+
+ - || or
+  - Return true, if one of the operands is true, otherwise, || returns false.
+ 
+ - =! not
+  - Inverts a boolean.  True become false, and false become true.

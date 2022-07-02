@@ -38,6 +38,7 @@ console.log(10 === "10"); //false
 console.log(10 == "10"); //true
 
 console.log("\n");
+console.log("👌");
 
 const favorite = Number(prompt("What's your favorite number? "));
 console.log(favorite);
