@@ -7,7 +7,7 @@ template literals uses  ``  (backtick sign)
 
 statements vs expression
 
-  - expression is a a piece of code that produces a value
+  - expression is a a piece of code that produces a value.
     5 + 3 = 9 is an expression
     - the value  9 is an expression
   
