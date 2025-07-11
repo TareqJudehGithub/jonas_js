@@ -2,7 +2,7 @@
 let currentYear = 2025;
 const birthYear = 1975;
 
-const age = currentYear - birthYear;
+let age = currentYear - birthYear;
 console.log(age);
 
 // Use + to concatenate strings together
@@ -68,3 +68,17 @@ if (hasDrivingLicense && hasGoodVision) {
 } else {
 	console.log("Sarah should not be driving");
 }
+
+// Ternary Operators
+// The condition part ? The if part : The else part
+
+// Ternary are perfect for taking quick (1 line of code) decisions.
+
+age = 14;
+
+age >= 18
+	? console.log("You can watch this movie")
+	: console.log("You're eligible to watch this movie.");
+
+const isEligToWatch = age >= 18 ? true : false;
+console.log(isEligToWatch);
