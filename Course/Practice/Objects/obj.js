@@ -1,6 +1,7 @@
 console.log("Objects in JS\n");
 
 /* 
+  A data structure that stores key-value pairs.
   In objects we define key:value pairs for every item/property.
   We create objects using curly braces instead of brackets 
   like the case in arrays.
