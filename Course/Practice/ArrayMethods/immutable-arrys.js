@@ -1,4 +1,4 @@
-console.log("Sort\n");
+console.log("Immutable Arrays\n");
 const data = [
   {
     id: 1,
@@ -147,29 +147,38 @@ function getBook(id) {
 
 const books = getBooks();
 
-const scoresArr = [75, 82, 59, 68, 91, 87, 64, 100];
-console.log(scoresArr);
-const sortedArr = scoresArr.sort((a, b) => a - b); // a - b means it is assorted ascending way.
-console.log(sortedArr);
-console.log(scoresArr);
+// 1. Add a book object to the array
 
-const friendsList = [
-  "John Smith",
-  "Sarah Adams",
-  "Steve Grinder",
-  "Ali Musa",
-  "Reema Alen",
-];
+const witcher1 = {
+  id: 6,
+  title: "The Witcher: The Last Wish",
+  pages: 344,
+  author: "andrez Sapkowski",
+};
 
-console.log(friendsList.sort());
-console.log(friendsList);
+// add
+// a new book: witcher1 object to the books(data) array using spread.
 
-console.log("\n");
+let addNewBook = [...books, witcher1];
+console.log(addNewBook);
 
-const newBooksArr = books.slice();
-const sortedTitlesByPagesDesc = newBooksArr
-  .sort((a, b) => b.pages - a.pages)
-  .map(function (book) {
-    return `Title: ${book.title}, Pages: ${book.pages}`;
-  });
-console.log(sortedTitlesByPagesDesc);
+let updateBooks = addNewBook;
+
+// delete a book, using filter
+const booksAfterDel = addNewBook.filter((book) => book.id !== 3); // Id 3 is Dune
+
+updateBooks = booksAfterDel;
+console.log(updateBooks);
+
+// Update a book title
+
+// my solution
+const updateBookTitle = updateBooks.map((book) =>
+  book.id === 5 ? { ...book, title: "Game(s) of Thrones" } : book
+);
+
+// instructor's
+// const updateBookTitle = updateBooks.map((book) =>
+//   book.id === 5 ? { ...book, title: "New Title" } : book
+// );
+console.log(updateBookTitle.map((book) => book.title));
